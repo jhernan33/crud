@@ -34,7 +34,7 @@ class Database extends Config
         'DSN'      => '',
         'hostname' => '172.21.0.2',
         'username' => 'udjango',
-        'password' => 'd64LiRa',
+        'password' => 'd64lira',
         'database' => 'crud',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
