@@ -21,7 +21,7 @@ RUN mv env .env
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN cd /var/www/
-RUN chmod -R 0777 /var/www/writable
+RUN chmod 777 -R /var/www/writable
 
 EXPOSE 9000
 CMD ["php-fpm"]
