@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'https://license.cards/:80/';
+    public $baseURL = 'http://35.87.91.131:80/';
 
     /**
      * --------------------------------------------------------------------------
