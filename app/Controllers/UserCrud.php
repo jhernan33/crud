@@ -4,12 +4,7 @@ use App\Models\UserModel;
 use CodeIgniter\Controller;
 
 class UserCrud extends Controller
-{
-    // public function __construct()
-    // {
-    //    $this->db = \Config\Database::connect();
-    // }
-    
+{   
     // show users list
     public function index(){
         $userModel = new UserModel();
