@@ -25,6 +25,7 @@ class Database extends Config
      */
     public $defaultGroup = 'default';
 
+    // Conexion a Mysql Docker
     /**
      * The default database connection.
      *
