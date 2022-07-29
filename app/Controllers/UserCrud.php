@@ -5,10 +5,11 @@ use CodeIgniter\Controller;
 
 class UserCrud extends Controller
 {   
+    /** listaod de Usuarios */
     // show users list
     public function index(){
         $userModel = new UserModel();
-        $data['users'] = $userModel->orderBy('id', 'DESC')->findAll();
+        $data['users'] = $userModel->orderBy('id', 'ASC')->findAll();
         return view('user_view', $data);
     }
 
