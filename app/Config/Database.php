@@ -33,7 +33,7 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => '172.21.0.2',
+        'hostname' => 'mysql_mysql_1',
         'username' => 'udjango',
         'password' => 'd64lira',
         'database' => 'crud',
